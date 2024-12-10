@@ -1,0 +1,5 @@
+basic_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Mi username'
+        run: echo ${{ github.actor }}
